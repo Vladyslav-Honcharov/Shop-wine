@@ -1,0 +1,51 @@
+.cart {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(24, 14, 14, 0.5);
+  border-radius: 5px;
+  color: rgb(86, 218, 174);
+  height: 400px;
+  min-width: 250px;
+  &-price {
+    justify-self: end;
+    align-self: center;
+  }
+  &-header {
+    background-color: rgb(23, 150, 23);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  &-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+    width: 20vw;
+  }
+  &-img {
+    width: 100px;
+    height: max-content;
+    margin-bottom: 10px;
+  }
+  &-close {
+    font-size: 30px;
+    margin: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-body {
+    background: url("https://img.freepik.com/free-vector/wine-menu-card_1085-343.jpg?w=1480&t=st=1686346615~exp=1686347215~hmac=b45c8691d4e2ffc6995f82c16ab811adc1ac9fec3bb0a059adee1c4d0b723b23");
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  border-bottom: 2px solid #ccc;
+}

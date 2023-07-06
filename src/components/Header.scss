@@ -1,0 +1,33 @@
+.header {
+  &-cart {
+    margin-right: 50px;
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      display: block;
+      width: 30px;
+    }
+  }
+  &-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+  }
+  &-favorites {
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      display: block;
+      width: 30px;
+    }
+  }
+}
+.navbar {
+  background-color: antiquewhite;
+}
+#root {
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,16 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  img {
+    align-self: center;
+    height: 250px;
+    width: 100px;
+  }
+}
+#root {
+  background: url("https://img.freepik.com/premium-vector/sketch-of-wine-poured-from-bottle-into-glass_647246-6.jpg?w=1480")
+    no-repeat;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+}

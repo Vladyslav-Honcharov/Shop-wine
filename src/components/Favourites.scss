@@ -1,0 +1,47 @@
+.favourites {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  height: 300px;
+  width: 350px;
+  &-header {
+    background-color: rosybrown;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  &-text {
+    width: 60%;
+    margin: 10px;
+    color: rgb(233, 255, 92);
+  }
+  &-img {
+    width: 20%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  &-close {
+    color: rgb(146, 146, 0);
+    font-size: 25px;
+    padding: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url("https://img.freepik.com/free-vector/wine-heart-shaped_1085-348.jpg?w=1480&t=st=1686377724~exp=1686378324~hmac=2ca0c49f592dbcc5ae05653eb2a4a61e41483b07dd4cb4d89596e627e7ba04ca")
+      no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
+  }
+  border-bottom: 2px solid #ccc;
+}
